@@ -39,6 +39,11 @@ app.post('/hola', async (req, res) => {
     res.send('Mensaje enviado');
 });
 
+app.get('/qr', async (req, res) => {
+    const imagePath = path.join(__dirname, '../bot.qr.png');
+    res.sendFile(imagePath);
+});
+
 // Función principal para configurar el bot
 const main = async () => {
     // Configura el adaptador de base de datos
