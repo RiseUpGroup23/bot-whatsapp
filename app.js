@@ -41,7 +41,7 @@ app.post('/hola', async (req, res) => {
 });
 
 app.get('/qr', async (req, res) => {
-    const imagePath = path.join(__dirname, '../bot.qr.png');
+    const imagePath = path.join(__dirname, '/bot.qr.png');
     res.sendFile(imagePath);
 });
 
