@@ -3,6 +3,7 @@ const { createBot, createProvider, createFlow, addKeyword } = require('@bot-what
 const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MongoAdapter = require('@bot-whatsapp/database/mongo');
+const path = require('path');
 
 const MONGO_DB_URI = 'mongodb+srv://spatemplate28:3yHl8y63kOduKv0O@cluster0.yzp1qhd.mongodb.net/';
 const MONGO_DB_NAME = 'test';
