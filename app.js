@@ -63,9 +63,9 @@ const main = async () => {
     // Inicia el portal QR para la autenticación
     QRPortalWeb();
 
-    // Inicia el servidor Express en el puerto 3002
-    app.listen(3002, () => {
-        console.log('Servidor escuchando en el puerto 3002');
+    // Inicia el servidor Express en el puerto 3000
+    app.listen(3000, () => {
+        console.log('Servidor escuchando en el puerto 3000');
     });
 };
 
